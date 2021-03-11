@@ -1,4 +1,4 @@
-script: "/test/data/screen1.gui_script"
+script: "/test/data/screen_preload.gui_script"
 fonts {
   name: "example"
   font: "/assets/example.font"
@@ -12,7 +12,7 @@ background_color {
 nodes {
   position {
     x: 320.0
-    y: 568.0
+    y: 697.0
     z: 0.0
     w: 1.0
   }
@@ -96,7 +96,7 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "FOCUS 1"
+  text: "PRELOAD"
   font: "example"
   id: "text"
   xanchor: XANCHOR_NONE
